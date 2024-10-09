@@ -8,7 +8,7 @@ public class DockerDemo {
     @GetMapping(value = "api/hello",produces = "application/json",consumes = "application/json")
     public String getStatus(){
         System.out.println("hello world");
-        System.out.println("helloworld. ");
+        System.out.println("helloworld.. ");
         return "";
     }
 
